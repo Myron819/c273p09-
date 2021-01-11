@@ -7,7 +7,7 @@
 
 $host = "localhost";
 $link = mysqli_connect($host,$username,$password,$db) or 
-        die(mysqli_connect_error());
+        die(mysqli_connect_error());//
 
 /*
 $connectstr_dbhost = '';
