@@ -6,8 +6,7 @@
     $db       = "c273_p09";  
 
 $host = "localhost";
-$link = mysqli_connect($host,$username,$password,$db) or 
-        die(mysqli_connect_error());//
+$link = mysqli_connect($host,$username,$password,$db) or die(mysqli_connect_error());//
 
 /*
 $connectstr_dbhost = '';
